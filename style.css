@@ -1,0 +1,85 @@
+body, html { overflow-x: hidden; margin: 0px;}
+
+
+/* Header */
+nav { background-color: orange; margin-bottom: 2px;}
+
+a { 
+color: inherit; text-decoration: none;  
+transition: .2s;  
+float:right; font-size: 20px; padding: 8px 16px; 
+padding-top: 45px;} 
+
+a:hover {color: white; transition: .2s;}
+  
+
+/* Header Image */
+.startWeek {
+    background-attachment: fixed;
+    background-image: url("../RyParisWebsite/startWeek.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    height: 400px;
+display: flex;
+}
+
+.startWeekText{
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    font-size: 30px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 15px;
+    
+}
+
+
+/* Everyday Categories */
+
+.everydayCategoriesHeading { padding: 15px 30px 5px 30px}
+.everydayCategoriesPgraph  { padding: 0px 30px 5px 30px}
+.everydayCatergoriesContent { display: flex; justify-content: space-evenly; }
+span { font-size: 15px; display: flex; justify-content: center; margin: 10px; padding-bottom: 30px;}
+
+
+
+/* Healthy Recipes */
+
+.healthyRecipesDiv {padding: 15px 30px 5px 30px; background-color: #c2c9d9;}
+.healthyRecipesContent { display: flex; justify-content: space-evenly; margin-top: 0px;}
+.healthyRecipesPgraph { padding: 0px 30px 5px 30px; display:flex; justify-content: space-around;
+    position: relative;
+    padding: 10px 10px 10px 10px; 
+    margin-top: 0px;
+    background-color:white} 
+
+/* Where to Eat */
+
+.whereToEatHeading { padding: 15px 30px 5px 30px;}
+.whereToEatPgraph { padding: 0px 30px 5px 30px; }
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer { background-color: orange; 
+color: gray; padding: 5px; 
+display: flex; justify-content: space-around; align-items: stretch; font-size: 10px; margin: 5px;
+overflow-y: hidden; overflow-x: hidden; margin: 0px; 
+}
+
+.footer > a { font-size: 10px; padding: 5px; margin: 5px 5px 20px 5px; 
+overflow-y: hidden; overflow-x: hidden; }
+
