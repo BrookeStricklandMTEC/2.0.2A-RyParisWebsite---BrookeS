@@ -1,8 +1,10 @@
+
+/* Body */
+
 body, html { overflow-x: hidden; margin: 0px;}
 
-
 /* Header */
-nav { background-color: orange; margin-bottom: 2px;}
+nav { background-color: orange; margin-bottom: 2px; font-family: 'Open Sans', sans-serif;}
 
 a { 
 color: inherit; text-decoration: none;  
@@ -35,14 +37,15 @@ display: flex;
     text-transform: uppercase;
     font-weight: bolder;
     padding: 15px;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
 
 /* Everyday Categories */
 
-.everydayCategoriesHeading { padding: 15px 30px 5px 30px}
-.everydayCategoriesPgraph  { padding: 0px 30px 5px 30px}
+.everydayCategoriesHeading { padding: 15px 30px 5px 30px; font-family: 'Open Sans', sans-serif;}
+.everydayCategoriesPgraph  { padding: 0px 30px 5px 30px; font-family: 'Open Sans', sans-serif;}
 .everydayCatergoriesContent { display: flex; justify-content: space-evenly; }
 span { font-size: 15px; display: flex; justify-content: center; margin: 10px; padding-bottom: 30px;}
 
@@ -50,26 +53,33 @@ span { font-size: 15px; display: flex; justify-content: center; margin: 10px; pa
 
 /* Healthy Recipes */
 
+.healthyRecipesHeading {font-family: 'Open Sans', sans-serif;} 
+.healthyRecipesPgraph { font-family: 'Open Sans', sans-serif;}
 .healthyRecipesDiv {padding: 15px 30px 5px 30px; background-color: #c2c9d9;}
 .healthyRecipesContent { display: flex; justify-content: space-evenly; margin-top: 0px;}
-.healthyRecipesPgraph { padding: 0px 30px 5px 30px; display:flex; justify-content: space-around;
+.healthyRecipesSubHeading 
+{   padding: 0px 30px 5px 30px; 
+    display:flex; 
+    justify-content: space-around;
     position: relative;
     padding: 10px 10px 10px 10px; 
     margin-top: 0px;
-    background-color:white} 
+    background-color:white;
+} 
+
 
 /* Where to Eat */
 
-.whereToEatHeading { padding: 15px 30px 5px 30px;}
-.whereToEatPgraph { padding: 0px 30px 5px 30px; }
+.whereToEatHeading { padding: 15px 30px 5px 30px; font-family: 'Open Sans', sans-serif;}
+.whereToEatPgraph { padding: 0px 30px 5px 30px; font-family: 'Open Sans', sans-serif; }
 
+.whereToEatContent { display: flex; justify-content: space-evenly;}
+.whereToEatText { font-size: 15px; display: flex; justify-content: center; padding-bottom: 30px;
+ }
 
-
-
-
-
-
-
+.burgerImageWrapper {border: solid; border-color: #c2c9d9; border-width: 5px;}
+.pizzaImageWrapper {border: solid; border-color: #c2c9d9; border-width: 5px; }
+.lobsterImageWrapper {border: solid; border-color: #c2c9d9; border-width: 5px;}
 
 
 /* Footer */

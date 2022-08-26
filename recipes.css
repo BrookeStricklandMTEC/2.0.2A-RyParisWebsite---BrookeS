@@ -1,0 +1,142 @@
+
+/* Heading and Body*/
+
+body, html { overflow-y: scroll; overflow-x: hidden; margin: 0px;}
+
+nav { background-color: orange; margin-bottom: 2px; font-family: 'Open Sans', sans-serif;}
+
+a { 
+color: inherit; text-decoration: none;  
+transition: .2s;  
+float:right; font-size: 20px; padding: 8px 16px; 
+padding-top: 45px;} 
+
+a:hover {color: white; transition: .2s;}
+
+
+/* Hamburger of the Week */
+
+.hamburgerOfWeek {
+    background-attachment: fixed;
+    background-image: url(../RyParisWebsite/burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    height: 400px;
+    display: flex;
+}
+
+.hamburgerOfWeekText{
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    font-size: 30px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0px 8px 0px 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Time */
+
+.time{ background-color: #c2c9d9; font-family: 'Open Sans', sans-serif;}
+
+.timeHeader { display: flex; padding: 15px 30px 0px 30px;}
+
+.timeText * { display: flex; justify-content: flex-start; flex-direction: column; flex-direction: row; }
+.levelEasy { padding: 0px 30px 0px 30px; }
+.prep10 { padding: 0px 30px 0px 30px; margin-bottom: 30px;}
+.yield4 { padding: 0px 30px 0px 30px; }
+
+
+/* Bengal Burger */
+
+.bengalBurgerHeading { display: flex; justify-content: center;
+padding: 30px 15px 3px 15px; margin-top: 30px; font-family: 'Open Sans', sans-serif;
+}
+
+.bengalBurgerReviews { display: flex; justify-content: center; color: #b53737; font-family: 'Open Sans', sans-serif;}
+
+
+
+
+.saveRecipe { 
+    
+background-color: #b53737;
+text-align: center;
+border-radius: 30px;
+padding: 5px;
+text-align: center;
+margin: 30px 10px 30px 665px;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.glyphicon { 
+
+background-color: #b53737;
+text-align: center;
+border-radius: 10%;
+margin-bottom: 50px;
+border-radius: 45px;
+padding: 5px;
+} 
+
+
+.saveRecipe:hover, .glyphicon:hover { 
+    cursor: pointer;
+    color: white; 
+    transition: .2s;
+    margin-bottom: 50px;
+}
+
+
+/*  Quote  */
+
+.quoteContent { background-color: rgba(212, 214, 225, 0.933); padding: 40px 15px 40px 15px; 
+    margin: 0px 150px 50px 150px; font-family: 'Open Sans', sans-serif;
+}
+.quote { margin: 0px 50px 0px 50px; }
+
+
+/* Ingredients  */
+
+.ingredientsContent{ margin: 18px 50px 30px 0px; display: flex; flex: 40%; flex-direction: column; padding-left: 200px; font-family: 'Open Sans', sans-serif; }
+.ingredientsPgraph { display: flex; flex: 50%; flex-direction: column; flex-grow: 1;}
+
+
+
+/* Directions */
+
+.directionsHeader{ margin-left: 40px;}
+.directionsContent { display: flex; flex: 60%; flex-direction: column; margin: 20px 15px 30px 0px; padding-right: 100px; font-family: 'Open Sans', sans-serif;}
+
+
+
+/* Ingredients and Directions */
+
+.ingredientsAndDirections{ display: flex; align-content: center; }
+
+
+/* Youtube Video */
+
+.video { margin-left: 380px; margin-bottom: 50px; margin-top: 50px; }
+
+
+
+
+
+/* Footer */
+
+.footer { background-color: orange; 
+    color: gray; padding: 5px; 
+    display: flex; justify-content: space-around; align-items: stretch; font-size: 10px; margin: 5px;
+    overflow-y: hidden; overflow-x: hidden; margin: 0px; 
+    }
+    
+    .footer > a { font-size: 10px; padding: 5px; margin: 5px 5px 20px 5px; 
+    overflow-y: hidden; overflow-x: hidden; }
