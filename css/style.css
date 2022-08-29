@@ -18,7 +18,7 @@ a:hover {color: white; transition: .2s;}
 /* Header Image */
 .startWeek {
     background-attachment: fixed;
-    background-image: url(startWeek.jpg); 
+    background-image: url(../images/startWeek.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
