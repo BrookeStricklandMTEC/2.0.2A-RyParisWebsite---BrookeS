@@ -23,7 +23,6 @@ a:hover {color: white; transition: .2s;}
     background-size: cover;
     padding: 100px;
     height: 400px;
-    display: flex;
 }
 
 .hamburgerOfWeekText{
